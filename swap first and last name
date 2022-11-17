@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    char fname[101];
+    char lastName[101];
+    int num;
+    int i;
+    scanf("%d",&num);
+    for(i=0 ; i<num ; i++){
+        scanf("%s %s\n",fname,lastName);
+        printf("%s %s\n",lastName,fname);
+    }
+   
+    return 0;
+}
