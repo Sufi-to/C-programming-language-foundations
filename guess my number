@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int main (void){
+    
+    int guess;
+    scanf("%d", &guess);
+    int count= 0;
+    int h= 1;
+    
+    while (h){
+        count = count + 1;
+        int child;
+        scanf("%d", &child);
+        if (child < guess){
+            printf("it is more\n");
+        }else if (child > guess){
+            printf("it is less\n");
+        }else{
+            printf("Number of tries needed\n");
+            printf("%d", count);
+            h = 0;
+        }
+    
+    
+    }
+    
+    
+}
