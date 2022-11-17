@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(void){
+    
+    int num;
+    double array [10];
+    double readweight;
+    double weight;
+    double total = 0;
+    
+    scanf("%d", &num);
+    
+    
+    for(int i =0; i<num; i++){
+        scanf("%lf", &array[i]);
+    }
+    
+    for (int i=0; i<num; i++){
+        scanf("%lf", &readweight);
+        weight = readweight* array[i];
+        total = total + weight;
+        
+        
+    }
+    printf("%.6lf", total);
+}
