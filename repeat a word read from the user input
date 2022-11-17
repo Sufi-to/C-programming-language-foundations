@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main (void){
+    
+    int a;
+    char word[101];
+    scanf("%d ", &a);
+    scanf("%s", word);
+    
+    for (int i=0; i<a; i++){
+        printf("%s\n", word);
+    }
+}
