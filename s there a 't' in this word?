@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main(void){
+    char word[50];
+    int l = 0;
+    
+    int i = 0;
+    int x = 0;
+    scanf("%s", word);
+    
+    while (word[l]!='\0' ){
+        
+        if (word[l]=='t' || word[l]=='T'){
+            i = l;
+            x = x +1;
+            
+        }
+        l++;
+    }
+   
+    if (i<=l/2 && x!=0){
+        printf("1");
+    }else if (i>l/2){
+        printf("2");
+    }else{
+        printf("-1");
+    }
+    
+}
