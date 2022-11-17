@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main(void){
+        int num;
+    double array[50];
+   
+    
+    
+    
+    scanf("%d", &num);
+    
+    for(int i = 0; i<num; i++){
+        scanf("%lf\n", &array[i]);
+        
+        
+    }
+    
+    
+  
+    for(int k = 0; k<num; k++){
+        printf("%.1lf\n", 22.0 - array[k]);
+    }
+    
+
+    
+    
+    
+    
+    
+}
